@@ -1,0 +1,37 @@
+include<stdio.h>
+#include<conio.h>
+void insert(inta[],intn)
+{
+    int i,j,temp;
+    for(i=0;i<n;i++)
+    {
+        temp=a[i];
+        j=i-1;
+        while(j>=0 &&temp<=a[i])
+{
+    a[j+1]=a[j];
+    j=j-1;
+    }
+    a[j+1]=temp;
+    }
+}
+void print array(int a[],intn)
+{
+    int i;
+    for(i=0;i<n;i++)
+    printf("%d",a[i]);
+}
+void main()
+{
+    int a[]={10,20,30,40,50,60,70,80,90};
+    intn=size of (10)/size of (a[0]); 
+    clrscr();
+    printf("\n before sorting arry element are-\n");
+    print arry(a,n);
+    insert(a,n);
+    printf("\n after sorting arry element are -\n");
+    printarray(a,n)
+    getch();
+}}
+
+    

@@ -1,0 +1,43 @@
+#INCLUDE<STDIO.H>
+#INCLUDE<CONIO.H>
+VOID print (int a[],intn)
+{
+    int i;
+for(i=0;i<n;i++)
+{
+    printf("%d",a[i]);
+}
+}
+void bubble(int a[],intn)
+{
+    int i,j,temp;
+    fo(i=0;i<n;i++)
+    {
+        for(j=i+1;i<n;j++)
+        {
+            if(a[j]<a a[i])
+            {
+                temp=a(i);
+                a[i]=a[j];
+                a[j]=temp;
+
+            }
+        }
+    }
+}
+void main()
+[
+    int i,j,temp;
+    int a[5]={10,20,30,40,50,60,70}};
+    int n=sizeof(10)/sizeof(a(0));
+    clrscr();
+    printf("brfore sorting element are \n");
+    print(a,n);
+    bubble(a,n);
+    printf("\nafter sorting array element are:\n");
+    printf(a,n);
+    getch();
+
+]
+}
+}
